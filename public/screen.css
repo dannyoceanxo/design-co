@@ -1,7 +1,39 @@
 html {
   text-size-adjust: 100%;
 }
-
+header {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+  border-top: 4px solid #e80b1a;
+}
+header ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+header li {
+  padding: 10px
+}
+.main {
+  text-align: center;
+}
+.secondary h4 {
+  color: #e80b1a
+}
+footer {
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+}
+.paragraphs {
+  display: flex;
+}
+.paragraphs p {
+padding-left: 10px
+}
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
